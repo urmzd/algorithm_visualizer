@@ -1,6 +1,6 @@
 # Algorithm Visualizer
 
-#### Sorting Algorithms
+### Sorting Algorithms
 
 ### Classification Algorithms
 
