@@ -1,6 +1,7 @@
 # Algorithm Visualizer
 
-### Sorting Algorithms
+## Sorting Algorithms
+
 - [x] Insertion Sort
 - [x] Merge Sort
 - [x] Heap Sort
@@ -9,13 +10,15 @@
 - [x] Quick Sort
 - [x] Shell Sort
 
-### Machine Learning Algorithms
+## Machine Learning Algorithms
+
 - [ ] Naive Bayes Classifier
 - [ ] Support Vector Machine (SVM)
-- [ ] Polynomial Regression 
+- [ ] Polynomial Regression
 
-### Graphing Algorithms
+## Graphing Algorithms
+
 - [ ] Breadth First Search
 - [ ] Depth First Search
-- [ ] Dijkistra Shortest Path
+- [ ] Dijkstra's  Shortest Path
 - [ ] A* Search
