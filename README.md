@@ -18,7 +18,8 @@
 
 ## Graphing Algorithms
 
+- [ ] K Colourable
 - [ ] Breadth First Search
 - [ ] Depth First Search
-- [ ] Dijkstra's  Shortest Path
-- [ ] A* Search
+- [ ] Dijkstra's Shortest Path
+- [ ] A\* Search
