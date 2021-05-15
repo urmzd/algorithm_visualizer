@@ -1,0 +1,47 @@
+A1: A2, A5, A6
+A2: A1, A3, A4, A5, A6, B7
+A3: A2, A5, B7, D5
+A4: A2, A6
+A5: A1, A2, A3, D5, D7, F2
+A6: A1, A2, A4
+
+B1: B2, B3, B7, B11, D6
+B2: B1, B3, B8, B9, B10, B11
+B3: B1, B2, B7, B9
+B4: B6, B8, B10, B12
+B5: B6, B8
+B6: B4, B5, B8, B12, E1
+B7: A2, A3, B1, B3, D5, D6
+B8: B2, B4, B5, B6, B10
+B9: B2, B3, C2
+B10: B2, B4, B8, B11, B12
+B11: B1, B2, B10, D6
+B12: B4, B6, B10
+
+C1: C3, C4
+C2: B9, C3, C4
+C3: C1, C2, C4
+C4: C1, C2, C3
+
+D1: D2, D3, D4, D7
+D2: D1, D4, E5
+D3: D1, D4, D5, D6, D7
+D4: D1, D2, D3, D6
+D5: A3, A5, B7, D3, D6, D7
+D6: B1, B7, B11, D3, D4, D5
+D7: A5, D1, D3, D5
+
+E1: B6, E2, E6
+E2: E1, E6, E7, E9
+E3: E4, E9, F4
+E4: E3, E7, E8, E9
+E5: D2, E6, E7, E8
+E6: E1, E2, E5, E7
+E7: E2, E4, E5, E6, E8, E9
+E8: E4, E5, E7
+E9: E2, E3, E4, E7
+
+F1: F2, F3
+F2: A5, F1, F3, F4
+F3: F1, F2, F4
+F4: E3, F2, F3
