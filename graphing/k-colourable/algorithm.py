@@ -1,32 +1,17 @@
 from typing import OrderedDict
 
 
-def getGraph(filename: str):
-    file = open(filename, "r");
-    graph = {}
+def get_separators(G):
+    pass
 
-    for line in file:
-        vertex, edges = line.strip().split(":")
-        edges = [e.strip() for e in edges.split(",")]
-        graph[vertex] = edges
 
-    return graph;
+def get_sub_graphs(G, S):
+    pass
 
-'''
-   visted: {[edge: string]: keyof colors} 
-'''
-graph = getGraph("")
 
-### TEST
-def countCapeBretonIsland(root: str, n: int, assigned_colors = {}, remaining_colors: int = 3, seperators = tuple()):
-    if n == 0:
-        return 1;
+def get_colourings(G, S=None):
+    pass
 
-    if root in seperators or root in assigned_colors:
-        return 0;
 
-    if (remaining_colors):
-        return 
-
-print(countCapeBretonIsland("Cape Breton", 3))
-
+def init_graph(file_name: str):
+    pass
